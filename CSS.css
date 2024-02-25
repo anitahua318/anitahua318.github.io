@@ -2,24 +2,26 @@
 
 /* Fonts */
 body {
-    font-family: 'Playfair Display', serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f9f5ff; /* light lilac */
+    background: linear-gradient(to bottom, #f7f3ff, #e7d6f8); /* Soft lilac gradient */
 }
 
 /* Header */
 header {
-    background-color: #c17ac0; /* pink-purple */
+    background: linear-gradient(to right, #d09be4, #f0a7e1); /* Pink-purple gradient */
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 nav a {
     color: #fff;
-    margin: 0 10px;
+    margin: 0 15px;
     text-decoration: none;
+    font-size: 18px;
 }
 
 /* Main Content */
@@ -31,31 +33,35 @@ main {
 #wishlist-form,
 #wishlist-items {
     background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
 #wishlist-form h2,
 #wishlist-items h2 {
     margin-top: 0;
+    font-size: 24px;
 }
 
 /* Wishlist Items */
 .item {
-    background-color: #f5e1f0; /* light pink-purple */
-    padding: 10px;
-    margin-bottom: 10px;
-    border-radius: 4px;
+    background-color: #f7e8f5; /* Lighter lilac */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
 }
 
 /* Footer */
 footer {
-    background-color: #c17ac0; /* pink-purple */
+    background: linear-gradient(to right, #d09be4, #f0a7e1); /* Pink-purple gradient */
     color: #fff;
     text-align: center;
-    padding: 10px 0;
+    padding: 15px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
