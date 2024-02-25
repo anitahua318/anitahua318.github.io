@@ -2,7 +2,7 @@
 
 /* Fonts */
 body {
-    font-family: 'Parisienne', cursive;
+    font-family: 'Roboto', sans-serif; /* Changing to Roboto for better readability */
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #b9c8da, #b9cfe6); /* Soft blue gradient */
