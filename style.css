@@ -2,7 +2,7 @@
 
 /* Fonts */
 body {
-    font-family: 'Cinzel Decorative', cursive;
+    font-family: 'Parisienne', cursive;
     margin: 0;
     padding: 0;
     background: linear-gradient(to bottom, #f9eaf1, #f3d1dc); /* Soft lilac gradient */
@@ -33,7 +33,7 @@ main {
 
 #wishlist-form,
 #wishlist-items {
-    background-color: rgb(185, 207, 230); /* Soft periwinkle */
+    background-color: #fff; /* White background */
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 12px;
@@ -44,11 +44,15 @@ main {
 #wishlist-items h2 {
     margin-top: 0;
     font-size: 24px;
+    color: #f8959b; /* Soft pink */
+    text-align: center;
+    text-transform: uppercase; /* Uppercase headings */
+    letter-spacing: 2px; /* Increased letter spacing */
 }
 
 /* Wishlist Items */
 .item {
-    background-color: rgb(147, 146, 177); /* Greyish-purple */
+    background-color: #f9eaf1; /* Soft lilac */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
