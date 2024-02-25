@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Wishlist</title>
-    <!-- Link to your CSS file for styling -->
-    <link rel="stylesheet" href="style.css">
+    <title>My Wishlist - Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .login-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .login-container h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .form-group input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+
+        .form-group input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -18,49 +71,22 @@
         <h1>My Wishlist</h1>
     </header>
     <main>
-        <!-- User Authentication Forms -->
-        <!-- Login Form -->
-        <!-- Registration Form -->
-
-        <section id="wishlist-form">
-            <h2>Add New Item to Wishlist</h2>
-            <form action="/add-item" method="POST">
-                <label for="item-name">Item Name:</label>
-                <input type="text" id="item-name" name="item-name" required>
-                
-                <label for="item-url">Item URL:</label>
-                <input type="url" id="item-url" name="item-url" required>
-                
-                <label for="item-category">Category:</label>
-                <select id="item-category" name="item-category">
-                    <option value="books">Books</option>
-                    <option value="electronics">Electronics</option>
-                    <option value="clothing">Clothing</option>
-                    <!-- Additional categories as needed -->
-                </select>
-                
-                <label for="item-description">Description:</label>
-                <textarea id="item-description" name="item-description"></textarea>
-                
-                <input type="submit" value="Add to Wishlist">
-            </form>
-        </section>
-
-        <section id="wishlist-items">
-            <h2>My Wishlist</h2>
-            <!-- Dynamically populated list of wishlist items -->
-            <div id="items-container">
-                <!-- Example Item -->
-                <div class="item">
-                    <h3>Item Name</h3>
-                    <p>Category: Electronics</p>
-                    <p>Description: A brief description of the item.</p>
-                    <a href="item-url.html" target="_blank">View Item</a>
-                    <!-- Edit and Delete functionality can be added with JavaScript and backend logic -->
+        <div class="login-container">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
                 </div>
-                <!-- Repeat for each item -->
-            </div>
-        </section>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Login">
+                </div>
+            </form>
+        </div>
     </main>
     <footer>
         <p>&copy; 2024 My Wishlist Website</p>
