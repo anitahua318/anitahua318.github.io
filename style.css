@@ -1,21 +1,19 @@
-/* styles.css */
-
 /* Fonts */
 body {
-    font-family: 'Roboto', sans-serif; /* Changing to Roboto for better readability */
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #b9c8da, #b9cfe6); /* Soft blue gradient */
-    color: #4a4a4a; /* Dark gray text color */
+    background: linear-gradient(to bottom, #b9c8da, #b9cfe6);
+    color: #4a4a4a;
 }
 
 /* Header */
 header {
-    background: linear-gradient(to right, #fbacad, #f8959b); /* Soft pink gradient */
+    background: linear-gradient(to right, #fbacad, #f8959b);
     color: #fff;
     padding: 20px 0;
     text-align: center;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 nav a {
@@ -31,8 +29,8 @@ main {
     margin-top: 20px;
 }
 
-#login-container
-login-container {
+/* Login Container */
+.login-container {
     background-color: #fff;
     padding: 20px;
     border-radius: 5px;
@@ -44,42 +42,42 @@ login-container {
     margin-bottom: 20px;
 }
 
+/* Wishlist Forms and Items */
 #wishlist-form,
 #wishlist-items {
-    background-color: #fff; /* White background */
+    background-color: #fff;
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 12px;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 #wishlist-form h2,
 #wishlist-items h2 {
     margin-top: 0;
     font-size: 24px;
-    color: #f8959b; /* Soft pink */
+    color: #f8959b;
     text-align: center;
-    text-transform: uppercase; /* Uppercase headings */
-    letter-spacing: 2px; /* Increased letter spacing */
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
-/* Wishlist Items */
 .item {
-    background-color: #f9eaf1; /* Soft lilac */
+    background-color: #f9eaf1;
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
-    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05); /* Subtle shadow */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 /* Footer */
 footer {
-    background: linear-gradient(to right, #fbacad, #f8959b); /* Soft pink gradient */
+    background: linear-gradient(to right, #fbacad, #f8959b);
     color: #fff;
     text-align: center;
     padding: 15px 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    box-shadow: 0px -2px 4px rgba(0, 0, 0, 0.1);
 }
