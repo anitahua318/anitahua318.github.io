@@ -17,10 +17,9 @@ function login() {
 
 // This function will simulate the user logging out.
 function logout() {
-    // Remove 'loggedIn' from local storage
     localStorage.removeItem('loggedIn');
-    // Update the UI
     updateLoginStatus();
+    window.location.href = 'index.html'; // Redirect to the home page after logging out
 }
 
 // This function updates the visibility of login/logout links based on the login status.
