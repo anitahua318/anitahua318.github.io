@@ -2,15 +2,16 @@
 
 /* Fonts */
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Cinzel Decorative', cursive;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, rgb(185, 200, 218), rgb(185, 207, 230)); /* Light blue-grey to soft periwinkle gradient */
+    background: linear-gradient(to bottom, #f9eaf1, #f3d1dc); /* Soft lilac gradient */
+    color: #4a4a4a; /* Dark gray text color */
 }
 
 /* Header */
 header {
-    background: linear-gradient(to right, rgb(212, 196, 233), rgb(177, 155, 202)); /* Pale lavender to muted purple gradient */
+    background: linear-gradient(to right, #fbacad, #f8959b); /* Soft pink gradient */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -56,7 +57,7 @@ main {
 
 /* Footer */
 footer {
-    background: linear-gradient(to right, rgb(212, 196, 233), rgb(177, 155, 202)); /* Pale lavender to muted purple gradient */
+    background: linear-gradient(to right, #fbacad, #f8959b); /* Soft pink gradient */
     color: #fff;
     text-align: center;
     padding: 15px 0;
