@@ -5,12 +5,12 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #f9eaf1, #f3d1dc); /* Soft pink gradient */
+    background: linear-gradient(to bottom, rgb(185, 200, 218), rgb(185, 207, 230)); /* Light blue-grey to soft periwinkle gradient */
 }
 
 /* Header */
 header {
-    background: linear-gradient(to right, #fbacad, #f8959b); /* Soft pink gradient */
+    background: linear-gradient(to right, rgb(212, 196, 233), rgb(177, 155, 202)); /* Pale lavender to muted purple gradient */
     color: #fff;
     padding: 20px 0;
     text-align: center;
@@ -32,7 +32,7 @@ main {
 
 #wishlist-form,
 #wishlist-items {
-    background-color: #fff;
+    background-color: rgb(185, 207, 230); /* Soft periwinkle */
     padding: 30px;
     margin-bottom: 30px;
     border-radius: 12px;
@@ -47,7 +47,7 @@ main {
 
 /* Wishlist Items */
 .item {
-    background-color: #f9d8e2; /* Lighter pink */
+    background-color: rgb(147, 146, 177); /* Greyish-purple */
     padding: 20px;
     margin-bottom: 20px;
     border-radius: 8px;
@@ -56,7 +56,7 @@ main {
 
 /* Footer */
 footer {
-    background: linear-gradient(to right, #fbacad, #f8959b); /* Soft pink gradient */
+    background: linear-gradient(to right, rgb(212, 196, 233), rgb(177, 155, 202)); /* Pale lavender to muted purple gradient */
     color: #fff;
     text-align: center;
     padding: 15px 0;
