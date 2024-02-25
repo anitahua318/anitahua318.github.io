@@ -5,12 +5,12 @@ body {
     font-family: 'Playfair Display', serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f5ff; /* light lilac */
 }
 
 /* Header */
 header {
-    background-color: #1a1a1a;
+    background-color: #c17ac0; /* pink-purple */
     color: #fff;
     padding: 10px 0;
     text-align: center;
@@ -43,7 +43,7 @@ main {
 
 /* Wishlist Items */
 .item {
-    background-color: #eaeaea;
+    background-color: #f5e1f0; /* light pink-purple */
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 4px;
@@ -51,7 +51,7 @@ main {
 
 /* Footer */
 footer {
-    background-color: #1a1a1a;
+    background-color: #c17ac0; /* pink-purple */
     color: #fff;
     text-align: center;
     padding: 10px 0;
